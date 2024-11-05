@@ -1,0 +1,236 @@
+.product-data {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+@media screen and (min-width: 768px) {
+  .product-data {
+    margin-top: 65px;
+  }
+}
+.product-success-view {
+  width: 85%;
+  max-width: 550px;
+}
+@media screen and (min-width: 768px) {
+  .product-success-view {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .product-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 47px;
+  }
+}
+.product-image {
+  border-radius: 16px;
+}
+@media screen and (min-width: 768px) {
+  .product-image {
+    width: 48%;
+    max-width: 540px;
+    max-height: 575px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .product {
+    margin-left: 30px;
+    width: 48%;
+  }
+}
+.product-title {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .product-title {
+    font-size: 48px;
+    margin-top: 0px;
+  }
+}
+.price {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+.rating-review-container {
+  display: flex;
+  align-items: center;
+}
+.reviews-count {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 13px;
+}
+.description {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+}
+.label-value-container {
+  display: flex;
+  margin-bottom: 16px;
+}
+.label {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 18px;
+  }
+}
+.value {
+  color: #616e7c;
+  font-family: 'Roboto';
+  margin-left: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .value {
+    font-size: 18px;
+  }
+}
+.line {
+  border-top: 1px solid #cbced2;
+  margin: 0px;
+}
+.item-container {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.item-control {
+  color: #616e7c;
+  width: 16px;
+  height: 16px;
+}
+.item {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+@media screen and (min-width: 768px) {
+  .item {
+    font-size: 25px;
+  }
+}
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #3b82f6;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.add-to-cart-button {
+  font-size: 12px;
+  margin-bottom: 33px;
+}
+@media screen and (min-width: 768px) {
+  .add-to-cart-button {
+    font-size: 15px;
+    margin-bottom: 47px;
+  }
+}
+.similar-product-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .similar-product-heading {
+    font-size: 33px;
+  }
+}
+.similar-products-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .similar-products-container {
+    margin-top: 25px;
+  }
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.products-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.error-view {
+  width: 300px;
+  height: 165px;
+}
+@media screen and (min-width: 768px) {
+  .error-view {
+    width: 540px;
+    height: 290px;
+  }
+}
+.error-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 33px;
+  font-weight: bold;
+  margin-top: 47px;
+}
+@media screen and (min-width: 768px) {
+  .error-heading {
+    font-size: 48px;
+  }
+}
